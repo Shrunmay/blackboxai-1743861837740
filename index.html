@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthnicWear - Premium Ethnic Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold heading-font text-amber-800">EthnicWear</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="products.html" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">Shop</a>
+                    <a href="#" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">Collections</a>
+                    <a href="#" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="account.html" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">Account</a>
+                    <a href="cart.html" class="text-gray-900 hover:text-amber-700 px-3 py-2 text-sm font-medium">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative h-96 overflow-hidden">
+                <img src="https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg" 
+                     alt="Ethnic wear collection" 
+                     class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <div class="text-center px-4">
+                        <h1 class="text-4xl md:text-5xl font-bold text-white heading-font mb-4">Premium Ethnic Wear</h1>
+                        <p class="text-xl text-white mb-8">Discover our exquisite collection of traditional outfits</p>
+                        <a href="products.html" class="bg-amber-700 hover:bg-amber-800 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                            Shop Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Categories -->
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center heading-font text-gray-900 mb-12">Shop by Category</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <a href="products.html?category=men" class="group relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg" 
+                     alt="Men's ethnic wear" 
+                     class="w-full h-64 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                    <h3 class="text-white text-xl font-bold heading-font group-hover:scale-105 transition duration-300">Men's Collection</h3>
+                </div>
+            </a>
+            <a href="products.html?category=women" class="group relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg" 
+                     alt="Women's ethnic wear" 
+                     class="w-full h-64 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                    <h3 class="text-white text-xl font-bold heading-font group-hover:scale-105 transition duration-300">Women's Collection</h3>
+                </div>
+            </a>
+            <a href="products.html?category=kids" class="group relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.pexels.com/photos/3557988/pexels-photo-3557988.jpeg" 
+                     alt="Kids ethnic wear" 
+                     class="w-full h-64 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                    <h3 class="text-white text-xl font-bold heading-font group-hover:scale-105 transition duration-300">Kids Collection</h3>
+                </div>
+            </a>
+            <a href="products.html?category=accessories" class="group relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.pexels.com/photos/989703/pexels-photo-989703.jpeg" 
+                     alt="Ethnic accessories" 
+                     class="w-full h-64 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                    <h3 class="text-white text-xl font-bold heading-font group-hover:scale-105 transition duration-300">Accessories</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="bg-gray-50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center heading-font text-gray-900 mb-12">Featured Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <a href="product-detail.html?id=1">
+                        <img src="https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg" 
+                             alt="Silk Saree" 
+                             class="w-full h-80 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-1">Banarasi Silk Saree</h3>
+                        <p class="text-gray-600 text-sm mb-2">Traditional handwoven silk</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold text-amber-700">₹3,999</span>
+                            <button class="bg-amber-700 hover:bg-amber-800 text-white px-3 py-1 rounded-full text-sm transition duration-300">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <a href="product-detail.html?id=2">
+                        <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg" 
+                             alt="Men's Kurta" 
+                             class="w-full h-80 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-1">Cotton Kurta Set</h3>
+                        <p class="text-gray-600 text-sm mb-2">Comfortable summer wear</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold text-amber-700">₹2,499</span>
+                            <button class="bg-amber-700 hover:bg-amber-800 text-white px-3 py-1 rounded-full text-sm transition duration-300">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <a href="product-detail.html?id=3">
+                        <img src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg" 
+                             alt="Lehenga Choli" 
+                             class="w-full h-80 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-1">Designer Lehenga</h3>
+                        <p class="text-gray-600 text-sm mb-2">Heavy embroidery work</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold text-amber-700">₹8,999</span>
+                            <button class="bg-amber-700 hover:bg-amber-800 text-white px-3 py-1 rounded-full text-sm transition duration-300">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <a href="product-detail.html?id=4">
+                        <img src="https://images.pexels.com/photos/1181249/pexels-photo-1181249.jpeg" 
+                             alt="Kids Sherwani" 
+                             class="w-full h-80 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-1">Kids Sherwani Set</h3>
+                        <p class="text-gray-600 text-sm mb-2">Perfect for weddings</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold text-amber-700">₹1,799</span>
+                            <button class="bg-amber-700 hover:bg-amber-800 text-white px-3 py-1 rounded-full text-sm transition duration-300">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="products.html" class="inline-block border-2 border-amber-700 text-amber-700 font-bold py-2 px-6 rounded-full hover:bg-amber-700 hover:text-white transition duration-300">
+                    View All Products
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="bg-amber-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-white heading-font mb-4">Subscribe to Our Newsletter</h2>
+            <p class="text-white mb-6">Get updates on new collections and exclusive offers</p>
+            <form class="max-w-md mx-auto">
+                <div class="flex">
+                    <input type="email" placeholder="Your email address" 
+                           class="flex-grow px-4 py-2 rounded-l-lg focus:outline-none">
+                    <button type="submit" 
+                            class="bg-amber-900 hover:bg-amber-950 text-white px-6 py-2 rounded-r-lg transition duration-300">
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold heading-font mb-4">EthnicWear</h3>
+                    <p class="text-gray-400">Premium ethnic wear for all occasions. Handcrafted with tradition and love.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Shop</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Customer Service</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">FAQs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Shipping Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Returns & Exchanges</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-gray-400">Email: info@ethnicwear.com</p>
+                        <p class="text-gray-400">Phone: +91 9876543210</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 EthnicWear. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
